@@ -13,13 +13,13 @@ function imc () {
         let classificacao = '';
 
         if (valorIMC < 18.5){
-            classificacao = 'Ta podi.';
+            classificacao = ' podi.';
         }else if (valorIMC < 25) {
             classificacao = 'Eba ta bem!!!';
         }else if (valorIMC < 30){
-            classificacao = 'Ta quase normal.';
+            classificacao = 'quase normal.';
         }else if (valorIMC < 35){
-            classificacao = 'Puts ta dificil.';
+            classificacao = '  pesando quase kawai.';
         }else if (valorIMC < 40){
             classificacao = 'Eu vo morre seco';
         }else {
